@@ -25,9 +25,10 @@ Before running the application first install the following dependencies.
 
 ```python
   pip install jupyterlab  
-  pip install python-dotenv
   pip install -U scikit-learn
-  conda install -c pyviz hvplot  
+  conda install -c pyviz hvplot
+  conda install -c conda-forge imbalanced-learn
+  conda install -c conda-forge pydotplus
     
 ```
 
